@@ -7,7 +7,7 @@ function MainContent() {
                 <div className="clearfix"><br/>
                 </div>
                 <div className="row" id="icon-div" style="height:50px;">
-                    <div className="col-lg-12"><!--TOGGLE THIS PADDING-->
+                    <div className="col-lg-12">
                         <span className="pull-right " id="menu-toggle">
           <i className="fa fa-bars fa-2x" id="menu-icon"></i>
           <i className="fa fa-times fa-2x" id="close-icon" style="display:none;"></i>
