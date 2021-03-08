@@ -1,0 +1,159 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+body,
+html {
+    height: auto;
+    height: 100%;
+    margin: 0px auto;
+    background-image: url('../img/white_wall_bg.png');
+    background-repeat: repeat;
+}
+
+#wrapper {
+    /* These two lines were the key. */
+    min-height: 100%;
+    margin: 0px auto;
+    padding: 0px auto;
+    background-image: url('../img/ds_bg.svg');
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-attachment: fixed;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+.center-block {
+    padding-top: 20px;
+    max-width: 600px;
+}
+
+.container h1 {
+    color: #7c97ad;
+    font-weight: bold;
+    font-size: 46px;
+}
+
+.container h4 {
+    color: #67c7c5;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.container a:link,
+.container a:visited,
+.container a:hover {
+    color: #000;
+}
+
+#sidebar-wrapper {
+    background-color: #67c7c5;
+}
+
+#menu-toggle i {
+    color: #7c97ad;
+}
+
+.sidebar-nav li a {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.sidebar-nav {}
+
+#sidebar-nav-primary {
+    padding-top: 37px;
+    width: 100%;
+    height: 50%;
+    position: relative;
+    top: 0;
+    right: 0;
+}
+
+#sidebar-nav-secondary {
+    width: 100%;
+    height: 50%;
+    position: relative;
+    bottom: 0;
+    right: 0;
+}
+
+.sidebar-bottom {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding-bottom: 37px;
+}
+
+#btn-login {
+    background-color: #7c97ad;
+    color: #fff;
+    border: none;
+}
+
+.left-badger {
+    float: left;
+    width: 240px;
+}
+
+.right-badger {
+    float: left;
+    width: 50%;
+    padding-top: 20px;
+    padding-left: 30px;
+    width: 358px;
+}
+
+.spacer {
+    height: 30px;
+}
+
+
+/* Small devices (tablets, 768px and up) */
+
+@media (max-width: 768px) {
+    .left-badger {
+        width: 100%;
+    }
+    .left-badger img {
+        display: block;
+        margin: auto;
+    }
+    .right-badger {
+        padding-left: 5px;
+        width: 100%;
+    }
+    .text-wrapper {
+        display: block;
+        margin: auto;
+        width: 240px;
+    }
+    #wrapper {
+        background-size: 50%;
+    }
+    .container h1 {
+        font-size: 32px;
+    }
+    .container h4 {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 320px) {
+    .left-badger img {
+        height: 190px;
+        width: 190px;
+    }
+    .container h1 {
+        font-size: 40px;
+    }
+    .container h4 {
+        font-size: 18px;
+    }
+    #wrapper {
+        background-size: 50%;
+    }
+}
